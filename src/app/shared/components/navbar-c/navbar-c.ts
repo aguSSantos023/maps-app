@@ -9,7 +9,7 @@ import { toSignal } from '@angular/core/rxjs-interop'
 
 @Component({
   selector: 'app-navbar-c',
-  imports: [AsyncPipe, RouterLink],
+  imports: [RouterLink],
   templateUrl: './navbar-c.html',
   styleUrl: './navbar-c.css',
 })
